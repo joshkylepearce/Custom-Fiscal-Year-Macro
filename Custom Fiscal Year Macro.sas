@@ -33,8 +33,8 @@ Macro Usage:
 	fiscal_year	= 2024,
 	start_day	= 1,
 	start_month	= 10,
-	end_day		= 31,
-	end_month	= 12
+	end_day		= 30,
+	end_month	= 9
 	);
 3.	Calling the macro creates two macro variables: start_date & end_date.
 	These macros can be used as filters for querying within the fiscal year.
@@ -111,8 +111,8 @@ Example 1: Macro Usage (U.S. 2023 fiscal year)
 fiscal_year=2023,
 start_day=1,
 start_month=10,
-end_day=31,
-end_month=12
+end_day=30,
+end_month=9
 );
 
 /*Filter on output parameters to extract U.S. 2023 fiscal year*/
