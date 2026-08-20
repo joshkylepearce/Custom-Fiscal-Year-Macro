@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T11:18:50Z",
+  "_captured_run_id": "r_7b6384a5bd1c476086cf5cfbdff0ece7",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote number_of_customers (37 rows, 2 columns).",
+    "NOTE: Read 12 rows from number_of_customers.",
+    "NOTE: Wrote number_of_customers_2023 (12 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 12 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

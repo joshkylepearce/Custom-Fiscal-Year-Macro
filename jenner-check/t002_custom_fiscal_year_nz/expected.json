@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T11:18:50Z",
+  "_captured_run_id": "r_b8cdc8f6db8d49cdb6526a3739b5aed2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote number_of_customers (37 rows, 2 columns).",
+    "NOTE: PROC SQL",
+    "NOTE: PROC SQL statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_custom_fiscal_year_nz",
+  "source_file": "Custom Fiscal Year Macro.sas",
+  "source_blob_sha": "95b5ed318fa0770614f96b0168120b14e1683307",
+  "source_commit": "e7067ed5a482dd987ee72cb658a22e176ebd6eec",
+  "notes": "custom_fiscal_year macro definition + the repo's own monthly_increment mock-data generator + Example 2 (New Zealand 2024 fiscal year) exactly as written, using PROC SQL to select number_of_customers as at the fiscal year end_date. No external data or paths -- runs as-is."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_custom_fiscal_year_us",
+  "source_file": "Custom Fiscal Year Macro.sas",
+  "source_blob_sha": "95b5ed318fa0770614f96b0168120b14e1683307",
+  "source_commit": "e7067ed5a482dd987ee72cb658a22e176ebd6eec",
+  "notes": "custom_fiscal_year macro definition + the repo's own monthly_increment mock-data generator + Example 1 (U.S. 2023 fiscal year) exactly as written, filtering number_of_customers with a DATA step WHERE between start_date/end_date; added a trailing PROC PRINT so the filtered result is visible in the listing. No external data or paths -- runs as-is."
+}
